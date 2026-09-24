@@ -76,8 +76,8 @@ export default function MooncakeTray({ onClose }) {
                 type="button"
                 onClick={() => handleCutCake(idx)}
                 className={`relative p-2.5 rounded-xl border transition-all text-center flex flex-col items-center ${selectedCake === idx
-                    ? 'bg-amber-800/80 border-[#ffd700] scale-105 shadow-[0_0_15px_rgba(255,215,0,0.4)]'
-                    : 'bg-black/30 border-amber-500/30 hover:bg-black/50'
+                  ? 'bg-amber-800/80 border-[#ffd700] scale-105 shadow-[0_0_15px_rgba(255,215,0,0.4)]'
+                  : 'bg-black/30 border-amber-500/30 hover:bg-black/50'
                   }`}
               >
                 {/* Mooncake Graphic SVG */}
@@ -153,11 +153,10 @@ export default function MooncakeTray({ onClose }) {
             <button
               type="button"
               onClick={handlePourTea}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-serif font-bold transition shadow ${
-                pouredTea
+              className={`px-3.5 py-1.5 rounded-lg text-xs font-serif font-bold transition shadow ${pouredTea
                   ? 'bg-[#065f46] text-[#d1fae5] border border-[#34d399]'
                   : 'bg-[#d97706] hover:bg-[#b45309] text-[#1e1102] border border-[#fde68a]'
-              }`}
+                }`}
             >
               {pouredTea ? '🍵 Đã Rót Trà' : 'Rót Trà 🍵'}
             </button>

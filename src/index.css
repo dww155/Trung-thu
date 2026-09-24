@@ -1590,6 +1590,7 @@ body {
   border: 1.5px solid #fef08a;
   box-shadow: 0 4px 15px rgba(245, 158, 11, 0.45);
 }
+
 .btn-action-gold:hover {
   background: linear-gradient(135deg, #fbbf24 0%, #b45309 100%);
   box-shadow: 0 6px 20px rgba(245, 158, 11, 0.6);
@@ -1603,6 +1604,7 @@ body {
   border: 1.5px solid #fca5a5;
   box-shadow: 0 4px 15px rgba(220, 38, 38, 0.45);
 }
+
 .btn-action-red:hover {
   background: linear-gradient(135deg, #ef4444 0%, #7f1d1d 100%);
   box-shadow: 0 6px 20px rgba(220, 38, 38, 0.65);
@@ -1616,6 +1618,7 @@ body {
   border: 1.5px solid #ca8a04;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.65);
 }
+
 .btn-action-navy:hover {
   background: #1e293b !important;
   color: #ffffff !important;
@@ -1631,6 +1634,7 @@ body {
   border: 1.5px solid #c2410c;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.65);
 }
+
 .btn-action-tea:hover {
   background: #361f12 !important;
   color: #ffffff !important;
@@ -1647,6 +1651,7 @@ body {
   border: 1.5px solid rgba(148, 163, 184, 0.4);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
+
 .btn-action-ghost:hover {
   background: #1e293b !important;
   color: #ffffff !important;

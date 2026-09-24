@@ -10,7 +10,7 @@ import { HangingLantern } from './components/Decorations';
 import { PRESET_WISHES } from './data/wishes';
 
 function getInitialCardData() {
-  const defaultWish = PRESET_WISHES[0];
+  const defaultWish = PRESET_WISHES[1];
   const initial = {
     recipient: defaultWish.recipient,
     sender: 'Gia Đình Yêu Thương',

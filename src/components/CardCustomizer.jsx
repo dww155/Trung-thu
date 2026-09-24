@@ -68,8 +68,8 @@ export default function CardCustomizer({
                   type="button"
                   onClick={() => setActiveCategory(cat.id)}
                   className={`px-3 py-1.5 rounded-full text-xs font-serif font-medium transition ${activeCategory === cat.id
-                      ? 'bg-[#800e13] text-[#ffd700] shadow-md border border-[#d4af37]'
-                      : 'bg-amber-100/70 hover:bg-amber-200/70 text-amber-900 border border-amber-300'
+                    ? 'bg-[#800e13] text-[#ffd700] shadow-md border border-[#d4af37]'
+                    : 'bg-amber-100/70 hover:bg-amber-200/70 text-amber-900 border border-amber-300'
                     }`}
                 >
                   {cat.name}
