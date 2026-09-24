@@ -1554,3 +1554,101 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* ========================================================
+   Action Toolbar Buttons with High Contrast & Luxury Aesthetic
+   ======================================================== */
+.btn-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.15rem;
+  border-radius: 9999px;
+  font-family: 'Be Vietnam Pro', system-ui, sans-serif;
+  font-size: clamp(0.8125rem, 2.5vw, 0.95rem);
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-sizing: border-box;
+}
+
+.btn-action:hover {
+  transform: translateY(-2px);
+}
+
+.btn-action:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* 1. Nút Tự Soạn Thiệp Này: Vàng kim sang trọng, chữ nâu đen đậm */
+.btn-action-gold {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #261201 !important;
+  font-weight: 700;
+  border: 1.5px solid #fef08a;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.45);
+}
+.btn-action-gold:hover {
+  background: linear-gradient(135deg, #fbbf24 0%, #b45309 100%);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.6);
+}
+
+/* 2. Nút Thả Đèn Trời: Đỏ son hoàng gia, chữ trắng tinh */
+.btn-action-red {
+  background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+  color: #ffffff !important;
+  font-weight: 700;
+  border: 1.5px solid #fca5a5;
+  box-shadow: 0 4px 15px rgba(220, 38, 38, 0.45);
+}
+.btn-action-red:hover {
+  background: linear-gradient(135deg, #ef4444 0%, #7f1d1d 100%);
+  box-shadow: 0 6px 20px rgba(220, 38, 38, 0.65);
+}
+
+/* 3. Nút Sao Chép Link Tặng Bạn: Nền xanh than đậm (Navy), chữ vàng kim óng ánh */
+.btn-action-navy {
+  background: #0f172a !important;
+  color: #ffd700 !important;
+  font-weight: 600;
+  border: 1.5px solid #ca8a04;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.65);
+}
+.btn-action-navy:hover {
+  background: #1e293b !important;
+  color: #ffffff !important;
+  border-color: #facc15;
+  box-shadow: 0 6px 18px rgba(202, 138, 4, 0.35);
+}
+
+/* 4. Nút Bàn Trà Phá Cỗ: Nền nâu hạt dẻ đậm, chữ vàng cam ấm áp */
+.btn-action-tea {
+  background: #23150c !important;
+  color: #fed7aa !important;
+  font-weight: 600;
+  border: 1.5px solid #c2410c;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.65);
+}
+.btn-action-tea:hover {
+  background: #361f12 !important;
+  color: #ffffff !important;
+  border-color: #f97316;
+  box-shadow: 0 6px 18px rgba(249, 115, 22, 0.35);
+}
+
+/* 5. Nút Gấp thiệp lại: Nền xám đen nhạt, chữ xám bạc thanh lịch */
+.btn-action-ghost {
+  background: rgba(15, 23, 42, 0.88) !important;
+  color: #e2e8f0 !important;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  border: 1.5px solid rgba(148, 163, 184, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+.btn-action-ghost:hover {
+  background: #1e293b !important;
+  color: #ffffff !important;
+  border-color: #94a3b8;
+}

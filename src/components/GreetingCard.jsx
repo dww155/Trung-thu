@@ -141,11 +141,10 @@ export default function GreetingCard({
 
       {/* Action Toolbar */}
       <div className="mt-6 flex flex-wrap justify-center items-center gap-3 interactive-ui">
-
         {/* Customize button */}
         <button
           onClick={onCustomize}
-          className="flex items-center gap-2 px-4 py-2.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-900 font-bold rounded-full shadow-lg hover:shadow-amber-500/30 transition transform hover:-translate-y-0.5 text-sm sm:text-base border border-amber-300"
+          className="btn-action btn-action-gold"
         >
           <span>✍️</span>
           <span>Tự Soạn Thiệp Này</span>
@@ -154,7 +153,7 @@ export default function GreetingCard({
         {/* Release Sky Lantern */}
         <button
           onClick={onOpenLanternModal}
-          className="flex items-center gap-2 px-4 py-2.5 bg-gradient-to-r from-red-600 to-rose-700 hover:from-red-700 hover:to-rose-800 text-white font-bold rounded-full shadow-lg hover:shadow-red-600/30 transition transform hover:-translate-y-0.5 text-sm sm:text-base border border-amber-400"
+          className="btn-action btn-action-red"
         >
           <span>🏮</span>
           <span>Thả Đèn Trời Cầu May</span>
@@ -163,7 +162,7 @@ export default function GreetingCard({
         {/* Shareable Link */}
         <button
           onClick={onCopyLink}
-          className="flex items-center gap-2 px-4 py-2.5 bg-indigo-900/80 hover:bg-indigo-800 text-amber-200 font-medium rounded-full shadow-lg transition transform hover:-translate-y-0.5 text-sm sm:text-base border border-amber-400/40 backdrop-blur"
+          className="btn-action btn-action-navy"
         >
           <span>{copied ? '✅' : '🔗'}</span>
           <span>{copied ? 'Đã Sao Chép Link!' : 'Sao Chép Link Tặng Bạn'}</span>
@@ -172,7 +171,7 @@ export default function GreetingCard({
         {/* Mooncake & Tea Tray toggle */}
         <button
           onClick={onToggleTeaTray}
-          className="flex items-center gap-2 px-4 py-2.5 bg-emerald-900/80 hover:bg-emerald-800 text-amber-200 font-medium rounded-full shadow-lg transition transform hover:-translate-y-0.5 text-sm sm:text-base border border-emerald-400/40 backdrop-blur"
+          className="btn-action btn-action-tea"
         >
           <span>🥮</span>
           <span>Bàn Trà Phá Cỗ</span>
@@ -181,7 +180,7 @@ export default function GreetingCard({
         {/* Close Card */}
         <button
           onClick={onCloseCard}
-          className="flex items-center gap-1.5 px-3 py-2 bg-slate-900/70 hover:bg-slate-800 text-slate-300 font-medium rounded-full shadow transition text-xs border border-slate-700"
+          className="btn-action btn-action-ghost"
         >
           <span>✉️</span>
           <span>Gấp thiệp lại</span>

@@ -153,10 +153,11 @@ export default function MooncakeTray({ onClose }) {
             <button
               type="button"
               onClick={handlePourTea}
-              className={`px-3 py-1.5 rounded-lg text-xs font-serif font-semibold border transition ${pouredTea
-                  ? 'bg-emerald-800 text-emerald-100 border-emerald-400'
-                  : 'bg-amber-600 hover:bg-amber-500 text-slate-950 border-amber-300'
-                }`}
+              className={`px-3.5 py-1.5 rounded-lg text-xs font-serif font-bold transition shadow ${
+                pouredTea
+                  ? 'bg-[#065f46] text-[#d1fae5] border border-[#34d399]'
+                  : 'bg-[#d97706] hover:bg-[#b45309] text-[#1e1102] border border-[#fde68a]'
+              }`}
             >
               {pouredTea ? '🍵 Đã Rót Trà' : 'Rót Trà 🍵'}
             </button>

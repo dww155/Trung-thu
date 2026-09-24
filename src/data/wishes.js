@@ -13,7 +13,7 @@ export const PRESET_WISHES = [
     category: 'family',
     title: 'Gia đình ấm êm, bình an',
     recipient: 'Gia Đình Thân Yêu',
-    content: 'Đêm rằm tháng Tám trăng tròn vành vạnh, con kính chúc cả gia đình luôn dồi dào sức khỏe, an khang thịnh vượng và vạn sự như ý. Dù ở bất cứ nơi đâu, hướng về ánh trăng rằm, lòng con luôn hướng về mái ấm gia đình – nơi ngập tràn tình yêu thương và sự chở che bao la.',
+    content: 'Đêm rằm tháng Tám trăng tròn vành vạnh, kính chúc cả gia đình luôn dồi dào sức khỏe, an khang thịnh vượng và vạn sự như ý. Dù ở bất cứ nơi đâu, hướng về ánh trăng rằm, luôn hướng về mái ấm gia đình – nơi ngập tràn tình yêu thương và sự chở che bao la.',
     poem: 'Trung thu trăng sáng như gương\nChúc cho cha mẹ sống trường thọ lâu\nGia đình hòa thuận dài lâu\nBình an, hạnh phúc, ấm no muôn đời.'
   },
   {

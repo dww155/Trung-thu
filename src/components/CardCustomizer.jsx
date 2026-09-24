@@ -167,11 +167,11 @@ export default function CardCustomizer({
         </div>
 
         {/* Modal Footer Actions */}
-        <div className="bg-amber-100/60 p-4 border-t border-amber-200 flex flex-wrap items-center justify-between gap-3">
+        <div className="bg-amber-100/80 p-4 border-t border-amber-300 flex flex-wrap items-center justify-between gap-3">
           <button
             type="button"
             onClick={() => onCopyLink({ recipient, sender, content, poem })}
-            className="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-indigo-900 hover:bg-indigo-800 text-amber-100 text-xs font-serif font-medium transition shadow"
+            className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-[#111827] hover:bg-[#1f2937] text-[#ffd700] text-xs font-serif font-bold transition shadow border border-[#d4af37]"
           >
             <span>{copied ? '✅' : '🔗'}</span>
             <span>{copied ? 'Đã sao chép link!' : 'Tạo link gửi trực tiếp'}</span>
@@ -181,7 +181,7 @@ export default function CardCustomizer({
             <button
               type="button"
               onClick={onClose}
-              className="px-4 py-2 rounded-lg bg-slate-200 hover:bg-slate-300 text-slate-700 text-xs sm:text-sm font-medium transition"
+              className="px-4 py-2 rounded-lg bg-[#e2e8f0] hover:bg-[#cbd5e1] text-[#334155] text-xs sm:text-sm font-semibold transition border border-[#cbd5e1]"
             >
               Hủy
             </button>
