@@ -5,13 +5,17 @@ export function HangingLantern({ side = 'left', delay = '0s' }) {
   const isLeft = side === 'left';
   return (
     <div
-      className={`fixed top-0 ${isLeft ? 'left-3 sm:left-12' : 'right-3 sm:right-12'} pointer-events-none z-10`}
+      className={`fixed top-0 ${isLeft ? 'left-2 sm:left-10' : 'right-2 sm:right-10'} pointer-events-none z-10`}
       style={{
         transformOrigin: 'top center',
         animation: `swayLantern 4.5s ease-in-out infinite alternate ${delay}`
       }}
     >
-      <svg width="70" height="150" viewBox="0 0 70 150" className="drop-shadow-lg">
+      <svg
+        style={{ width: 'clamp(42px, 9vw, 68px)', height: 'auto' }}
+        viewBox="0 0 70 150"
+        className="drop-shadow-lg"
+      >
         {/* Rope */}
         <line x1="35" y1="0" x2="35" y2="35" stroke="#d4af37" strokeWidth="2.5" />
         {/* Golden top cap */}

@@ -106,13 +106,13 @@ export default function App() {
       <MusicPlayer />
 
       {/* Top Header Festive Bar */}
-      <header className="relative z-20 pt-4 pb-2 px-4 text-center">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/40 border border-[#d4af37]/40 backdrop-blur-md shadow-lg">
-          <span className="text-amber-400 text-sm">✦</span>
-          <span className="text-xs sm:text-sm font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#ffeaa7] via-[#ffd700] to-[#fff3b0] tracking-widest uppercase">
+      <header className="relative z-20 pt-3 sm:pt-4 pb-2 px-14 sm:px-4 text-center">
+        <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 rounded-full bg-black/40 border border-[#d4af37]/40 backdrop-blur-md shadow-lg">
+          <span className="text-amber-400 text-xs sm:text-sm">✦</span>
+          <span className="text-[10px] sm:text-sm font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#ffeaa7] via-[#ffd700] to-[#fff3b0] tracking-wider sm:tracking-widest uppercase">
             TẾT TRUNG THU 2026 • ĐOÀN VIÊN NHƯ Ý
           </span>
-          <span className="text-amber-400 text-sm">✦</span>
+          <span className="text-amber-400 text-xs sm:text-sm">✦</span>
         </div>
       </header>
 

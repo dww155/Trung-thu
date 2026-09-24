@@ -14,12 +14,12 @@ export default function GreetingCard({
   copied
 }) {
   return (
-    <div className="relative z-10 w-full max-w-2xl mx-auto px-4 py-6 animate-fade-in-up">
+    <div className="relative z-10 w-full max-w-2xl mx-auto px-2 sm:px-4 py-4 sm:py-6 animate-fade-in-up">
       {/* Outer Glow Card Container */}
-      <div className="relative rounded-2xl p-1 bg-gradient-to-b from-[#d4af37] via-[#f1c40f] to-[#aa7c11] shadow-[0_25px_60px_rgba(0,0,0,0.85),0_0_50px_rgba(255,215,0,0.35)]">
+      <div className="relative rounded-2xl p-1 bg-gradient-to-b from-[#d4af37] via-[#f1c40f] to-[#aa7c11] shadow-[0_20px_50px_rgba(0,0,0,0.85),0_0_40px_rgba(255,215,0,0.35)]">
 
         {/* Main Parchment Surface */}
-        <div className="relative rounded-[14px] bg-[#fffdf5] text-slate-800 p-6 sm:p-10 shadow-inner overflow-hidden border border-[#e6c989]">
+        <div className="relative rounded-[14px] bg-[#fffdf5] text-slate-800 p-4 sm:p-8 shadow-inner overflow-hidden border border-[#e6c989]">
 
           {/* Subtle oriental watermark background */}
           <div className="absolute inset-0 opacity-[0.04] pointer-events-none bg-[radial-gradient(#800e13_1px,transparent_1px)] [background-size:20px_20px]" />
@@ -84,7 +84,7 @@ export default function GreetingCard({
           )}
 
           {/* Blessing Badges: Phúc - Lộc - Thọ - Khang - Ninh */}
-          <div className="grid grid-cols-5 gap-2 my-5 text-center">
+          <div className="grid grid-cols-5 gap-1 sm:gap-2 my-4 sm:my-5 text-center">
             {[
               { char: 'Phúc', sub: 'Hạnh Phúc' },
               { char: 'Lộc', sub: 'Tài Lộc' },
